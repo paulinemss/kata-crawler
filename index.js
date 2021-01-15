@@ -44,7 +44,7 @@ require('dotenv').config();
     spinner: cliSpinners.dots,
     text: 'Navigating to /completed_solutions'
   }).start();
-  await page.goto('https://www.codewars.com/users/paulinemss/completed_solutions'); 
+  await page.goto(`https://www.codewars.com/users/${process.env.USERNAME}/completed_solutions`); 
   spinner.succeed();
 
   spinner = ora({
