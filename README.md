@@ -7,6 +7,12 @@
 ### How to use 
 
 - Run `npm i` to install
-- Add your login credentials to the `.env` file
+- Create a `.env` file following `.env.example`
+- Add your Codewars login credentials to the `.env` file
+```js
+EMAIL= /* email linked to your Codewars account */
+PASSWORD= /* password linked to your Codewars account */ 
+USERNAME= /* Codewars username, must be case-sensitive */ 
+```
 - Run `npm start`
 - Your file will be generated as `codewars.json` ✨ 
