@@ -75,6 +75,11 @@ require('dotenv').config();
       return obj; 
     }); 
   });
+  
+  if (data.length === 0) {
+    spinner.fail('Found 0 solutions. Please check your credentials in .env');
+    process.exit();
+  }
   spinner.succeed();
 
   spinner = ora({
