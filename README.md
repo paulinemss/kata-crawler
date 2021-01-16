@@ -16,3 +16,7 @@ USERNAME= /* Codewars username, must be case-sensitive */
 ```
 - Run `npm start`
 - Your file will be generated as `codewars.json` ✨ 
+
+### Windows and WSL support
+
+You might need to install an X Server on Windows, such as [this one](https://sourceforge.net/projects/vcxsrv/). To configure puppeteer for WSL, please read [this](https://github.com/puppeteer/puppeteer/issues/1837).
